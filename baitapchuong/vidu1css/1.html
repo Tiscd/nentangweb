@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="1.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="image/images.jfif" alt="Ảnh không hiển thị" />
+      <span class="tentruong">Đại học Thủy Lợi</span>
+    </div>
+    <div class="tieude">
+      <h2>Thêm sinh viên</h2>
+    </div>
+
+    <form>
+      <div class="cot masv">
+        <label for="maSV">Mã sinh viên:</label><br />
+        <input type="text" id="maSV" name="maSV" />
+      </div>
+
+      <div class="cot hoten">
+        <label for="hoTen">Họ và tên:</label><br />
+        <input type="text" id="hoTen" name="hoTen" />
+      </div>
+
+      <div class="cot email">
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div class="cot ngaysinh">
+        <label for="ngaySinh">Ngày sinh:</label><br />
+        <input type="date" id="ngaySinh" name="ngaySinh" />
+      </div>
+
+      <div class="cot gioitinh">
+        <label>Giới tính:</label><br />
+        <input type="radio" id="nam" name="gioiTinh" value="Nam" />
+        <label for="nam">Nam</label>
+
+        <input type="radio" id="nu" name="gioiTinh" value="Nữ" />
+        <label for="nu">Nữ</label>
+      </div>
+
+      <div class="cot ghichu">
+        <label for="ghiChu">Ghi chú:</label><br />
+        <textarea id="ghiChu" name="ghiChu" rows="3" cols="30"></textarea>
+      </div>
+
+      <div class="cot nut">
+        <button type="submit">Thêm sinh viên</button>
+      </div>
+    </form>
+
+    <div class="tieude">
+      <h2>Danh sách sinh viên</h2>
+    </div>
+
+    <div class="bang">
+      <table border="1">
+        <thead>
+          <tr>
+            <th>STT</th>
+            <th>Mã SV</th>
+            <th>Họ tên</th>
+            <th>Email</th>
+            <th>Giới tính</th>
+            <th>Ngày sinh</th>
+            <th>Thao tác</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2251172468</td>
+            <td>Đặng Đình Quý</td>
+            <td>qwertyuio16066@gmail.com</td>
+            <td>Nam</td>
+            <td>09-05-2003</td>
+            <td><a href="#">Sửa</a> | <a href="#">Xoá</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>2251172357</td>
+            <td>Vũ Ngọc Hiếu</td>
+            <td>hieungocvu@gmail.com</td>
+            <td>Nam</td>
+            <td>30-12-2004</td>
+            <td><a href="#">Sửa</a> | <a href="#">Xoá</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>2251179876</td>
+            <td>Hoàng Văn Quắt</td>
+            <td>quatdaica@gmail.com</td>
+            <td>Nam</td>
+            <td>01-01-2004</td>
+            <td><a href="#">Sửa</a> | <a href="#">Xoá</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

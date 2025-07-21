@@ -1,0 +1,109 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(245, 222, 179, 0.658);
+    padding: 20px;
+  }
+
+  .tieude h2 {
+    color: grey;
+    background-color: rgba(57, 57, 117, 0.164);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  form {
+    background-color:rgb(248, 245, 245);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  .cot {
+    margin-bottom: 12px;
+  }
+
+  .cot label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .cot input[type="text"],
+  .cot input[type="email"],
+  .cot input[type="date"],
+  .cot textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    border-radius: 5px;
+  }
+
+  .cot input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  .cot.nut {
+    text-align: center;
+  }
+
+  .cot.nut button {
+    padding: 8px 15px;
+    background-color: rgb(89, 89, 179);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .cot.nut button:hover {
+    background-color: rgb(47, 47, 202);
+  }
+
+  .bang {
+    max-width: 90%;
+    margin: 30px auto;
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  th, td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: rgb(76, 76, 230);
+    color: white;
+  }
+
+  td a {
+    color: rgb(171, 233, 171);
+    text-decoration: none;
+  }
+
+  td a:hover {
+    text-decoration: underline;
+  }
+  .tentruong {
+    font-weight: bold;
+    font-size: 50px;
+    color: navy;
+  }
+  .tentruong {
+    position: relative;
+    top: -10px;
+  }
+</style>
